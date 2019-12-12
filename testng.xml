@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+
+        <test name="vytruck Regression testss">
+           <parameter name="test" value="Regression"></parameter>
+            <packages>
+                <package name="tests.vytruck"></package>
+            </packages>
+        </test>
+    </suite>
+
+
+
